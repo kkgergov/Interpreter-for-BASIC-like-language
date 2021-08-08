@@ -1,6 +1,6 @@
 # Interpreter
 
-Interpreter for programming language.
+Interpreter for custom programming language really similar to BASIC.
 
 ## Description
 
