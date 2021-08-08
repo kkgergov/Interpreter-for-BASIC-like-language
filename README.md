@@ -4,7 +4,9 @@ Interpreter for custom programming language really similar to BASIC.
 
 ## Description
 
-No desc so far, too lazy.
+Lexer tokenizes the input. 
+Parser eats the tokens, creating ast.
+Interpreter does a postorder traversal of the ast tree and has built-in semantic analysis and handles scopes.
 
 ### Getting started
 
