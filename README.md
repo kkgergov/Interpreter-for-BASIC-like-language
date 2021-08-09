@@ -12,6 +12,7 @@ Interpreter does a postorder traversal of the ast tree and has built-in semantic
 
 * Download the .h, .inl and .cpp files.
 * Optionally download the test programs.
+* Run main.cpp.
 * Write program in txt file or use the REPL mode.
 * The program you write must obey the following grammar:
 ```
