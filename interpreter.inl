@@ -247,6 +247,8 @@ inline void Interpreter::visit(ReadVar *ast)
         return;
 
     std::string input;
+
+    std::cout << "> ";
     getline(std::cin, input);
 
     Lexer inputLex(input);
@@ -267,6 +269,7 @@ inline void Interpreter::visit(ReadArr *ast)
         return;
 
     std::string input;
+    std::cout << "> ";
     getline(std::cin, input);
 
     Lexer inputLex(input);
@@ -414,4 +417,4 @@ inline void Interpreter::interpret_REPL()
         throw std::invalid_argument("end");
 }
 
-#endif 
+#endif
